@@ -16,6 +16,8 @@ class EthioJobs < Scrapper
     snatch_data
   end
 
+  private
+
   def snatch_data
     @current_page = []
     scrap.css('table .listing-section').each do |link|

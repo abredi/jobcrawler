@@ -19,7 +19,7 @@ end
 
 def next_step(inp, ejobs)
   case inp
-  when '#'
+  when '1'
     ejobs.next_page
     print(ejobs)
   else
