@@ -11,7 +11,7 @@ RSpec.describe Scrapper do
     end
 
     it 'should return the whole document' do
-      expect(subject.scrap.blank?).to be false 
+      expect(subject.scrap.blank?).to be false
     end
   end
 end

@@ -1,7 +1,7 @@
 class Scrapper
   def initialize(site)
     @site = site
-    @page = 1 
+    @page = 1
   end
 
   def scrap
