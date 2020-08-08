@@ -7,5 +7,9 @@ RSpec.describe EthioJobs do
     it 'should be instance of scrapper' do
       expect(subject).to be_instance_of(EthioJobs)
     end
+
+    it 'should have a 10 latest jobs' do
+      expect(subject.current_page.length).to eql(10)
+    end
   end
 end
