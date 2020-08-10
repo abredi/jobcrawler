@@ -16,17 +16,6 @@ class EthioJobs < Scrapper
     snatch_data
   end
 
-  # def categories
-  #   @current_page = []
-  #   scrap.css('table cssmenu').each do |link|
-  #     @current_page.push(
-  #       {
-  #         title: link.css('h2 a').text.strip,
-  #         link: link.css('h2 a').first['href'].strip
-  #       }
-  #     end
-  # end
-
   private
 
   def snatch_data
