@@ -2,7 +2,7 @@
 
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg) [![Run on Repl.it](https://repl.it/badge/github/wrakc/Bubble-Sort---Microverse)](https://repl.it/@aliabdulaziz/jobcrawler)
 
-> I developed this web scrapping project to get the best practices that I already learned in the previous projects, like setting-up a code linter, using GitFlow, testing your business logic, writing good commit messages, and a good README.
+> The web scrapping web application to scrap and display the latest jobs from ethiopian largest job site. I developed this web scrapping project to get the best practices that I already learned in the previous projects, like setting-up a code linter, using GitFlow, testing your business logic, writing good commit messages, and a good README.
 
 ## Built With
 
@@ -14,6 +14,7 @@
 
 - [Live view on repl.it](https://repl.it/@aliabdulaziz/jobcrawler#bin/main.rb)
 - [Project briefing video](https://youtu.be/y6TvPBWlswo)
+
 ## Getting Started
 
 **Install on Your Own Machine.**
@@ -42,7 +43,7 @@ Set up your machine.
   > [Set up RSpec (testing tool) to run the tests](https://relishapp.com/rspec/docs/gettingstarted)
 - Clone the repository
   > Clone the repository by run the code below on your computer terminal.
-  `git clone https://github.com/abredi/tiktactoe-game.git`
+  `git clone https://github.com/abredi/jobcrawler.git`
 
 ### Usage
 TO run unit tests
