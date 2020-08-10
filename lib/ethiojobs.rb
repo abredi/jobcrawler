@@ -5,6 +5,7 @@ require_relative 'scrapper'
 class EthioJobs < Scrapper
   attr_accessor :base_url
   attr_reader :current_page
+  attr_reader :category_list
   def initialize
     @base_url = 'http://www.ethiojobs.net/search-results-jobs'
     super(self)
@@ -17,14 +18,10 @@ class EthioJobs < Scrapper
   end
 
   def categories
-    @current_page = []
-    scrap.css('table cssmenu').each do |link|
-      @current_page.push(
-        {
-          title: link.css('h2 a').text.strip,
-          link: link.css('h2 a').first['href'].strip
-        }
-      end
+    @category_list = []
+    scrap.css('table .cssmenu').each do |link|
+      @category_list.push(link)
+    end
   end
 
   private
