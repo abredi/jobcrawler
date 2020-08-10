@@ -13,7 +13,7 @@
 ## Live Demo
 
 - [Live view on repl.it](https://repl.it/@aliabdulaziz/jobcrawler#bin/main.rb)
-
+- [Project briefing video](https://youtu.be/y6TvPBWlswo)
 ## Getting Started
 
 **Install on Your Own Machine.**
@@ -75,7 +75,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Thanks for Microverse][https://github.com/microverseinc]
+- [Thanks for Microverse](https://github.com/microverseinc)
 
 ## 📝 License
 
