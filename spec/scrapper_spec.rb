@@ -11,6 +11,10 @@ RSpec.describe Scrapper do
     end
 
     it 'should return the whole document' do
+      expect(subject.scrap.css('html')[0].name).to eql('html')
+    end
+
+    it 'the base document should not be blank' do
       expect(subject.scrap.blank?).to be false
     end
   end
